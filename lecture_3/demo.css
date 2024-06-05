@@ -1,0 +1,36 @@
+.container {
+  height: 100%;
+}
+.container .row {
+  display: flex;
+  background-color: orangered;
+  color: white;
+  justify-content: space-between;
+  height: 10%;
+}
+.container .row .row-left {
+  width: 50%;
+}
+.container .row .row-left .logo {
+  padding: 0.5rem 1rem;
+  width: 50%;
+}
+.container .row .row-left .logo img {
+  border-radius: 50%;
+  width: 40%;
+}
+.container .row .row-right {
+  display: flex;
+  width: 50%;
+}
+.container .row .row-right .menu a {
+  text-decoration: none;
+  color: white;
+  padding: 0 5%;
+}
+.container .row .row-right .menu a:nth-child(1) {
+  color: black;
+}
+.container .row .row-right .haeder-icon {
+  padding-left: 2%;
+}/*# sourceMappingURL=demo.css.map */
