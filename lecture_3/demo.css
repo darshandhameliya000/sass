@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .container {
   height: 100%;
 }
@@ -5,11 +11,11 @@
   display: flex;
   background-color: orangered;
   color: white;
-  justify-content: space-between;
   height: 10%;
+  align-items: center;
 }
 .container .row .row-left {
-  width: 50%;
+  width: 30%;
 }
 .container .row .row-left .logo {
   padding: 0.5rem 1rem;
@@ -17,20 +23,56 @@
 }
 .container .row .row-left .logo img {
   border-radius: 50%;
-  width: 40%;
+  width: 50%;
 }
 .container .row .row-right {
   display: flex;
-  width: 50%;
+  justify-content: flex-end;
+  width: 70%;
 }
 .container .row .row-right .menu a {
   text-decoration: none;
   color: white;
-  padding: 0 5%;
+  padding: 20px;
 }
 .container .row .row-right .menu a:nth-child(1) {
   color: black;
 }
 .container .row .row-right .haeder-icon {
-  padding-left: 2%;
+  padding: 0 20px;
+  font-size: 1.2rem;
+}
+.container .text {
+  background-image: url(img/background\ image.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 520px;
+  color: white;
+}
+.container .text .width {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+.container .text .width .heading {
+  margin-top: 25%;
+  margin-bottom: 3%;
+}
+.container .text .para {
+  margin-bottom: 3%;
+  text-transform: uppercase;
+}
+.container .text button {
+  background-color: rgb(177, 60, 17);
+  color: white;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+}
+.container .cotact-left {
+  display: flex;
 }/*# sourceMappingURL=demo.css.map */
