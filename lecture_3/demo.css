@@ -73,6 +73,54 @@
   padding: 1rem 3rem;
   font-size: 1rem;
 }
-.container .cotact-left {
+.container .contact {
+  height: 400px;
+  width: 100%;
+  background-color: aqua;
   display: flex;
+  gap: 6rem;
+}
+.container .contact .contact-left {
+  width: 20%;
+  height: 90%;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+.container .contact .contact-left .first-div {
+  display: flex;
+}
+.container .contact .contact-left .second-div {
+  color: rgb(86, 83, 80);
+}
+.container .contact .contact-left .third-div {
+  display: flex;
+  gap: 1rem;
+}
+.container .contact .contact-center {
+  width: 30%;
+  height: 90%;
+  border: 1px solid;
+  display: flex;
+  gap: 5rem;
+}
+.container .contact .contact-center .grid-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.container .contact .contact-center .grid-column ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.container .contact .contact-center .grid-column ul li {
+  list-style-type: none;
+  text-decoration: none;
+}
+.container .contact .contact-right {
+  width: 20%;
+  height: 90%;
+  border: 1px solid;
 }/*# sourceMappingURL=demo.css.map */
