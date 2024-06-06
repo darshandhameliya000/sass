@@ -95,61 +95,110 @@ $color: white;
     }
 
     .contact {
-        height: 400px;
+        height: 350px;
         width: 100%;
-        background-color: aqua;
         display: flex;
-        gap: 6rem;
-        
-        
+        gap: 1.5rem;
+        font-size: 1.5rem;
+
+
         .contact-left {
-            width: 20%;
-            height: 90%;
-            border: 1px solid;
-            display: flex ;
+            margin-top: 8rem;
+            margin-left: 8rem;
+            width: 25%;
+            height: fit-content;
+            display: flex;
             flex-direction: column;
             gap: 1.1rem;
 
-            .first-div{
+            .first-div {
                 display: flex;
+                font-weight: 1000;
+
+                .ecommerce-heading {
+                    margin-left: 1rem;
+                }
             }
-            .second-div{
-                color:rgb(86, 83, 80);
+
+            .second-div {
+                color: rgb(86, 83, 80);
             }
-            .third-div{
+
+            .third-div {
                 display: flex;
-                gap:1rem;
+                gap: 1rem;
+                font-size: 1.5rem;
             }
         }
-        .contact-center {
-            width: 30%;
-            height: 90%;
-            border: 1px solid;
-            display: flex;
-            gap:5rem;
 
-            .grid-column{
+        .contact-center {
+            margin-right: 1rem;
+            margin-top: 5.5rem;
+            width:fit-content;
+            height: fit-content;
+            display: flex;
+            gap: 5rem;
+
+            .grid-column {
                 display: flex;
                 flex-direction: column;
-                gap: 1rem;
+                gap: 3rem;
+                color: rgb(100, 100, 99);
+
+                .grid-heading{
+                    font-weight: 1000;
+                }
             }
-           
-            .grid-column ul{
+
+            .grid-column ul {
                 display: flex;
-                flex-direction: column ;
+                flex-direction: column;
                 gap: 0.5rem;
             }
 
-            .grid-column ul li{
+            .grid-column ul li {
                 list-style-type: none;
                 text-decoration: none;
-            
+            }
+
+            .grid-column ul li a {
+                text-decoration: none;
+                color: rgb(100, 100, 99);
+
             }
         }
+
         .contact-right {
+            margin-top: 8rem;
             width: 20%;
-            height: 90%;
-            border: 1px solid;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            .first-div{
+                color: rgb(100, 100, 99);
+            }
+
+            .second-div {
+                display: flex;
+                gap: 2rem;
+                font-size: 1.5rem;
+
+            }
         }
+
+    }
+    .hr{
+        margin: auto;
+        margin-top: 3rem ;
+        margin-bottom: 2rem ;
+        width: 70%;
+    }
+    .footer{
+        color: rgb(86, 83, 80);
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
     }
 }
